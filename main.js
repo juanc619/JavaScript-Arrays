@@ -8,7 +8,7 @@
 
 
 
-const productos = ["sillon", "silla", "mesa", "ropero"];
+
 
 // Accedienco a nuestro Array
 
@@ -25,7 +25,15 @@ const productos = ["sillon", "silla", "mesa", "ropero"];
 
 /**Length */
 
-console.log(productos.length);
-for(let i = 0; i < productos.length; i++) {
-    console.log(productos[i]);
-}
+// console.log(productos.length);
+// for(let i = 0; i < productos.length; i++) {
+//     console.log(productos[i]);
+// }
+
+
+/***push */
+
+const productos = ["sillon", "silla", "mesa", "ropero"];
+
+productos.push("cama");
+console.log(productos);
