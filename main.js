@@ -33,7 +33,25 @@
 
 /***push */
 
-const productos = ["sillon", "silla", "mesa", "ropero"];
+// const productos = ["sillon", "silla", "mesa", "ropero"];
 
-productos.push("cama");
+// productos.push("cama");
+// console.log(productos);
+
+/** unshift */
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// productos.unshift("puerta");
+
+// console.log(productos);
+
+/** shift */
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// productos.shift();
+
+// console.log(productos);
+
+/** pop */
+const productos = ["sillon", "silla", "mesa", "ropero"];
+productos.pop();
+
 console.log(productos);
