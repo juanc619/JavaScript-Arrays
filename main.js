@@ -17,6 +17,15 @@ const productos = ["sillon", "silla", "mesa", "ropero"];
 
 //  Recorriendo nuestro Array
 
-for(let i = 0; i < 4; i++) {
+// for(let i = 0; i < 4; i++) {
+//     console.log(productos[i]);
+// }
+
+/********* Metodos */
+
+/**Length */
+
+console.log(productos.length);
+for(let i = 0; i < productos.length; i++) {
     console.log(productos[i]);
 }
