@@ -31,27 +31,72 @@
 // }
 
 
-/***push */
+/***push : agregar un elemento al final del Array*/
 
 // const productos = ["sillon", "silla", "mesa", "ropero"];
 
 // productos.push("cama");
 // console.log(productos);
 
-/** unshift */
+/** unshift : agregar un elemento al comienzo del array */
 // const productos = ["sillon", "silla", "mesa", "ropero"];
 // productos.unshift("puerta");
 
 // console.log(productos);
 
-/** shift */
+/** shift : eliminar un elemento al comienzo del array */
 // const productos = ["sillon", "silla", "mesa", "ropero"];
 // productos.shift();
 
 // console.log(productos);
 
-/** pop */
-const productos = ["sillon", "silla", "mesa", "ropero"];
-productos.pop();
+/** pop : eliminar un elemento al final del array */
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// productos.pop();
 
-console.log(productos);
+// console.log(productos);
+
+/** splice : eliminar uno o varios elementos del array */
+
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// productos.splice(1, 2);
+// console.log(productos);
+
+/**Join : genera un string con los elementos del array */
+
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+
+// console.log(productos.join(", "));
+// console.log(productos.join("/"));
+
+/**concat : unir dos array en uno*/
+
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// const productos2 = ["puertas", "ventana", "cama"];
+
+// const productoFinal = productos.concat(productos2);
+// console.log(productoFinal);
+
+/* slice : generar un copia de una parte de nuestro array */
+
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// const productoComedor = productos.slice(1, 3);
+// console.log(productoComedor);
+
+// /* index of : saber el numero de indice de nuestro elemento */
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// console.log(productos.indexOf("ropero"));
+
+/* include : saber si un elemento existe en nuestro array */
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// // console.log(productos.includes("silla"));
+
+// if(productos.includes("silla")) {
+//     console.log(productos.indexOf("silla"));
+// }else {
+//     console.log("cama no se encuentra en el array");
+// }
+
+/* reverse : invertir el orden de nuestro array */
+// const productos = ["sillon", "silla", "mesa", "ropero"];
+// console.log(productos.reverse());
